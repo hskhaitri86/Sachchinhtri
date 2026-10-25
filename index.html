@@ -1,1 +1,254 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hskhaitri86 - Tri Thức Chính Trị & Pháp Luật Chính Thống</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #8B0000; /* Đỏ đô trang trọng, quyền uy */
+            --secondary-color: #D4AF37; /* Vàng kim tinh tế */
+            --dark-bg: #111111;
+            --light-bg: #F9F6F0;
+            --text-color: #2C2C2C;
+        }
 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Merriweather', serif;
+            background-color: var(--light-bg);
+            color: var(--text-color);
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: linear-gradient(rgba(17, 17, 17, 0.85), rgba(139, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 120px 20px;
+            position: relative;
+        }
+
+        .logo-tag {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--secondary-color);
+            margin-bottom: 15px;
+            display: inline-block;
+            border-bottom: 1px solid var(--secondary-color);
+            padding-bottom: 5px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            color: #E0E0E0;
+            font-weight: 300;
+        }
+
+        .cta-btn {
+            font-family: 'Montserrat', sans-serif;
+            background: var(--secondary-color);
+            color: var(--dark-bg);
+            padding: 14px 35px;
+            font-size: 1rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .cta-btn:hover {
+            background: #fff;
+            color: var(--primary-color);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 80px 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.2rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 50px;
+            font-style: italic;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-top: 4px solid var(--secondary-color);
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 30px rgba(139, 0, 0, 0.1);
+        }
+
+        .card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 25px;
+        }
+
+        .card-content h3 {
+            font-size: 1.3rem;
+            margin-bottom: 12px;
+            color: var(--dark-bg);
+        }
+
+        .card-content p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.95krem;
+            color: #555;
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+
+        .mystery-box {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2c0b0b 100%);
+            color: #fff;
+            text-align: center;
+            padding: 80px 20px;
+            margin: 60px 0;
+            border-radius: 12px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .mystery-box h2 {
+            color: var(--secondary-color);
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .mystery-box p {
+            font-family: 'Montserrat', sans-serif;
+            max-width: 800px;
+            margin: 0 auto 30px;
+            font-size: 1.1rem;
+            color: #ccc;
+        }
+
+        footer {
+            background: var(--dark-bg);
+            color: #aaa;
+            text-align: center;
+            padding: 40px 20px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.9rem;
+            border-top: 1px solid #333;
+        }
+
+        footer span {
+            color: var(--secondary-color);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <span class="logo-tag">hskhaitri86 Official</span>
+        <h1>Ánh Sáng Tri Thức & Định Hướng Tương Lai</h1>
+        <p>Nơi lưu giữ và lan tỏa những giá trị tư tưởng, chính trị, pháp luật chính thống đỉnh cao. Khám phá những ẩn số lịch sử và nguyên lý quản trị tầm vóc.</p>
+        <a href="#collection" class="cta-btn">Khám Phá Ngay</a>
+    </header>
+
+    <div class="container" id="collection">
+        <h2 class="section-title">Bộ Sưu Tập Tuyển Chọn</h2>
+        <p class="section-subtitle">Tác phẩm kinh điển mang giá trị vượt thời gian cho những nhà tư tưởng và nhà quản lý.</p>
+        
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80" alt="Sách Chính Trị">
+                <div class="card-content">
+                    <h3>Tư Tưởng & Triết Học Chính Trị</h3>
+                    <p>Khám phá cội nguồn sức mạnh của các hệ thống tư tưởng và đường lối chiến lược xuyên suốt các thời kỳ.</p>
+                    <a href="#" class="cta-btn" style="padding: 10px 20px; font-size: 0.85rem;">Tìm Hiểu Thêm</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=600&q=80" alt="Sách Pháp Luật">
+                <div class="card-content">
+                    <h3>Hệ Thống Pháp Luật Chính Thống</h3>
+                    <p>Khung pháp lý vững chắc, kim chỉ nam cho sự công bằng, minh bạch và phát triển bền vững của quốc gia.</p>
+                    <a href="#" class="cta-btn" style="padding: 10px 20px; font-size: 0.85rem;">Tìm Hiểu Thêm</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80" alt="Tư liệu quý">
+                <div class="card-content">
+                    <h3>Tư Liệu Nghiên Cứu Chuyên Sâu</h3>
+                    <p>Những bản thảo, văn kiện lịch sử và tài liệu phân tích chuyên sâu độc quyền dành riêng cho giới nghiên cứu.</p>
+                    <a href="#" class="cta-btn" style="padding: 10px 20px; font-size: 0.85rem;">Tìm Hiểu Thêm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="mystery-box">
+            <h2>Góc Nhìn Khác Biệt & Bí Mật Tri Thức</h2>
+            <p>Có những tài liệu lịch sử và văn bản chính luận hiếm hoi chưa từng được công bố rộng rãi. Liệu bạn đã sẵn sàng tiếp cận những góc nhìn sắc bén nhất về dòng chảy thời đại tại <strong>hskhaitri86</strong>?</p>
+            <a href="#" class="cta-btn">Nhận Tư Vấn Đặc Biệt</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 <span>hskhaitri86</span>. Bản quyền thuộc về thương hiệu sách chính trị & pháp luật chính thống.</p>
+    </footer>
+
+</body>
+</html>
