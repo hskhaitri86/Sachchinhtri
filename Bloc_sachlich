@@ -1,0 +1,110 @@
+{
+  "ten_du_an": "2027_SoLich_NgayNayNamXua_QuangTrung_V58",
+  "cai_dat_render": {
+    "title_size_max": 120,
+    "body_size_max": 50,
+    "gap_title_body": 30,
+    "glass_opacity": 0.4
+  },
+  "cai_dat_am_thanh": {
+    "ten_file_nhac_bgm": "",
+    "am_luong_nhac_nen": 0.25
+  },
+  "lenh_tao_nhac_bgm": {
+    "lua_chon_1": {
+      "the_loai": "Epic Cinematic Historical Drama",
+      "prompt": "Cinematic dramatic orchestral, pulsing deep heartbeat drums, inspiring strings, majestic brass, emotional and historical atmosphere, pristine audio production"
+    }
+  },
+  "kich_ban_thu_am_lien_mach": "Thời gian không chờ đợi một ai. Nhưng lịch sử luôn để lại những dấu ấn vĩ đại cho những ai biết trân trọng. Mỗi tờ lịch lật mở là một chuyến du hành vượt thời gian. Trở về quá khứ để thấu hiểu hiện tại và kiến tạo tương lai. Năm 2027 đang đến gần. Bạn đã chuẩn bị gì cho hành trình mới của cuộc đời? Hãy cùng lật giở từng trang 'Sổ lịch Ngày này năm xưa 2027' - tuyệt tác tri thức kết tinh từ Nhà xuất bản Chính trị quốc gia Sự thật. Nơi lưu giữ những mốc son chói lọi của lịch sử nhân loại và dân tộc Việt Nam. Kết hợp cùng bộ lịch bloc siêu cực đại 'An Khang Thịnh Vượng', thắp sáng không gian sống bằng nguồn năng lượng thịnh vượng và tự hào. Đừng để thời gian trôi đi vô nghĩa. Hãy làm chủ từng khoảnh khắc, trang bị cho mình cẩm nang tri thức bất biến giữa dòng đời vạn biến. Bộ đôi ấn phẩm độc đáo này đang có mặt chính thức tại Nhà sách Quang Trung Hà Nội. Ghé ngay Nhà sách Quang Trung Hà Nội hôm nay để sở hữu món quà vô giá cho năm mới. Tri thức là ngọn đuốc soi đường. Chúc bạn một năm 2027 an khang, thịnh vượng và rực rỡ!",
+  "danh_sach_phan_canh": [
+    {
+      "scene": 1,
+      "out": "01_Thoi_Gian_Troi.png",
+      "prompt": "Vietnamese mature man sitting at cozy wooden desk, warm morning sunlight streaming through white curtains, cinematic study room, 35mm cinema film look, clean footage, no logo, no watermark, no text, no subtitles, no channel branding, pristine cinematic frame, 8k",
+      "title": ["DÒNG CHẢY", "THỜI GIAN"],
+      "lines": ["Mỗi khoảnh khắc", "Đều vô giá"],
+      "dialogue": "Thời gian không chờ đợi một ai. Nhưng lịch sử luôn để lại những dấu ấn vĩ đại cho những ai biết trân trọng.",
+      "voice": "vi-VN-NamMinhNeural",
+      "rate": "-10%",
+      "pitch": "-2Hz"
+    },
+    {
+      "scene": 2,
+      "out": "02_Lich_Su_Hao_Hung.png",
+      "prompt": "Focused Vietnamese intellectual gently turning pages of a historical diary book, warm ambient desk lighting, 35mm cinema film look, clean footage, no logo, no watermark, no text, no subtitles, no channel branding, pristine cinematic frame, 8k",
+      "title": ["KÝ ỨC", "VƯỢT THỜI GIAN"],
+      "lines": ["Hành trình", "Về quá khứ"],
+      "dialogue": "Mỗi tờ lịch lật mở là một chuyến du hành vượt thời gian. Trở về quá khứ để thấu hiểu hiện tại và kiến tạo tương lai.",
+      "voice": "vi-VN-NamMinhNeural",
+      "rate": "0%",
+      "pitch": "0Hz"
+    },
+    {
+      "scene": 3,
+      "out": "03_So_Lich_2027.png",
+      "prompt": "Stunning close up red cover diary book reading SO LICH NGAY NAY NAM XUA 2027, elegant golden typography, dramatic lighting, 35mm cinema film look, clean footage, no logo, no watermark, no text, no subtitles, no channel branding, pristine cinematic frame, 8k",
+      "title": ["SỔ LỊCH 2027", "NGÀY NÀY NĂM XƯA"],
+      "lines": ["Tuyệt tác tri thức", "Từ Nhà xuất bản Chính trị quốc gia Sự thật"],
+      "dialogue": "Năm 2027 đang đến gần. Bạn đã chuẩn bị gì cho hành trình mới của cuộc đời? Hãy cùng lật giở từng trang 'Sổ lịch Ngày này năm xưa 2027'[cite: 3].",
+      "voice": "vi-VN-NamMinhNeural",
+      "rate": "5%",
+      "pitch": "2Hz"
+    },
+    {
+      "scene": 4,
+      "out": "04_Lich_Bloc_Red.png",
+      "prompt": "Elegant red block calendar hanging on a textured wall, golden auspicious symbols reading An Khang Thinh Vuong, majestic visual, 35mm cinema film look, clean footage, no logo, no watermark, no text, no subtitles, no channel branding, pristine cinematic frame, 8k",
+      "title": ["LỊCH BLOC", "AN KHANG THỊNH VƯỢNG"],
+      "lines": ["Đất nước nhìn từ biển", "Tự hào Việt Nam"],
+      "dialogue": "Kết hợp cùng bộ lịch bloc siêu cực đại 'An Khang Thịnh Vượng'[cite: 4], thắp sáng không gian sống bằng nguồn năng lượng thịnh vượng và tự hào.",
+      "voice": "vi-VN-NamMinhNeural",
+      "rate": "0%",
+      "pitch": "5Hz"
+    },
+    {
+      "scene": 5,
+      "out": "05_Lam_Chu_Khoanh_Khac.png",
+      "prompt": "Authentic Vietnamese man holding the diary book confidently, inspiring cinematic framing, study room background, 35mm cinema film look, clean footage, no logo, no watermark, no text, no subtitles, no channel branding, pristine cinematic frame, 8k",
+      "title": ["LÀM CHỦ", "TƯƠNG LAI"],
+      "lines": ["Trang bị cẩm nang", "Vững bước vươn xa"],
+      "dialogue": "Đừng để thời gian trôi đi vô nghĩa. Hãy làm chủ từng khoảnh khắc, trang bị cho mình cẩm nang tri thức bất biến giữa dòng đời vạn biến.",
+      "voice": "vi-VN-NamMinhNeural",
+      "rate": "5%",
+      "pitch": "0Hz"
+    },
+    {
+      "scene": 6,
+      "out": "06_Nha_Sach_Quang_Trung.png",
+      "prompt": "Warm inviting facade of a prestigious bookstore at dusk, glowing yellow lights welcoming customers, authentic Vietnamese street view, 35mm cinema film look, clean footage, no logo, no watermark, no text, no subtitles, no channel branding, pristine cinematic frame, 8k",
+      "title": ["ĐIỂM ĐẾN", "TINH HOA"],
+      "lines": ["Phân phối chính thức", "Đảm bảo uy tín"],
+      "dialogue": "Bộ đôi ấn phẩm độc đáo này đang có mặt chính thức tại Nhà sách Quang Trung Hà Nội.",
+      "voice": "vi-VN-NamMinhNeural",
+      "rate": "0%",
+      "pitch": "0Hz"
+    },
+    {
+      "scene": 7,
+      "out": "07_Ghe_Tham_Ngay.png",
+      "prompt": "Vietnamese customer smiling while receiving neatly wrapped calendar books at bookstore counter, joyful interaction, 35mm cinema film look, clean footage, no logo, no watermark, no text, no subtitles, no channel branding, pristine cinematic frame, 8k",
+      "title": ["SỞ HỮU NGAY", "HÔM NAY"],
+      "lines": ["Ghé thăm Nhà sách", "Quang Trung Hà Nội"],
+      "dialogue": "Ghé ngay Nhà sách Quang Trung Hà Nội hôm nay để sở hữu món quà vô giá cho năm mới.",
+      "voice": "vi-VN-NamMinhNeural",
+      "rate": "5%",
+      "pitch": "5Hz"
+    },
+    {
+      "scene": 8,
+      "out": "08_Binh_An_2027.png",
+      "prompt": "Peaceful morning sunlight illuminating calendar books and a steaming cup of tea on wooden desk, harmonious aesthetic, 35mm cinema film look, clean footage, no logo, no watermark, no text, no subtitles, no channel branding, pristine cinematic frame, 8k",
+      "title": ["NĂM MỚI", "AN KHANG THỊNH VƯỢNG"],
+      "lines": ["Tri thức soi đường", "Hạnh phúc trọn vẹn"],
+      "dialogue": "Tri thức là ngọn đuốc soi đường. Chúc bạn một năm 2027 an khang, thịnh vượng và rực rỡ!",
+      "voice": "vi-VN-NamMinhNeural",
+      "rate": "-10%",
+      "pitch": "2Hz"
+    }
+  ]
+}
